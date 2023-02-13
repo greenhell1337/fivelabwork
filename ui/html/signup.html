@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/signup.css" type="text/css" rel="stylesheet">
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <header>
+        <h1>Место, где можно купить чай.</h1>
+        <nav>
+            <ul>
+                <li><a href="/main">Главная страница</a></li>
+                <li><a href="/tea_list">Товары</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/sign_up">Регистрация</a></li>
+                <li><a href="/log_in">Авторизация</a></li>
+                <li><a href="/basket">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+<div class="registration">
+    <form method=post>
+        <table border=0>
+            <tr bgcolor=#cccccc>
+                <td colspan=3 align=center><h3>Регистрация</h3></td>
+            </tr>
+            <tr>
+                <th>
+                    <table border=0>
+                        <tr>
+                            <td>Имя</td>
+                            <td align=center><input type="nameReg" name="zurnal"></td>
+                        </tr>
+                        <tr>
+                            <td>Фамилия</td>
+                            <td align=center><input type="surnameReg" name="zurnal"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td align=center><input type="emailReg" name="scazki"></td>
+                        </tr>
+                        <tr>
+                            <td>Пароль</td>
+                            <td align=center><input type="passwordReg" name="ctixi"></td>
+                        </tr>
+                        <tr>
+                            <td>Подтвердите пароль</td>
+                            <td align=center><input type="passwordRepeatReg" name="ctixi"></td>
+                        </tr>
+
+                    </table>
+                </th>
+                <th>
+                    <table border=0>
+                        <tr>
+                            <td>Город</td>
+                            <td align=center><input type="cityReg" name="zurnal"></td>
+                        </tr>
+                        <tr>
+                            <td>Улица</td>
+                            <td align=center><input type="streetReg" name="zurnal"></td>
+                        </tr>
+                        <tr>
+                            <td>Номер дома</td>
+                            <td align=center><input type="numberHomeReg" name="scazki"></td>
+                        </tr>
+                        <tr>
+                            <td>Номер квартиры</td>
+                            <td align=center><input type="humberFlatReg" name="scazki"></td>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+            <tr>
+                <td colspan=2 align=center><input type=submit value="Отправить заказ"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</html>
